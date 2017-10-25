@@ -19,7 +19,7 @@ int main(int argc, const char * argv[]) {
         
         std::fstream file;
         file.exceptions(file.exceptions() | std::ios_base::badbit);
-        file.open("/Users/ksenia/Desktop/C/assignment-5/assignment-5/fracs.txt");
+        file.open("/Users/ksenia/Desktop/denum/fracs.txt");
         
         if (!file.good()) {
             throw std::runtime_error("unable to open file for reading");
